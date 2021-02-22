@@ -1,0 +1,915 @@
+@media screen and (max-width:1440px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    transition: 1s ease-in;
+}
+body::-webkit-scrollbar{
+    width: 1px;
+}
+.generator{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #f9fdfd;
+}
+.generator div:nth-child(1) p{
+    padding: 10px;
+}
+.generator div:nth-child(1) .p1{
+    font-size: 20px;
+    font-weight: 700;
+    color:red;
+}
+.generator div:nth-child(1) .p2{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.generator div:nth-child(1) .p3{
+    font-size: 15px;
+}
+.generator .d2{
+    height:150px;
+    width:150vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    padding: 50px;
+    border:1px solid black;
+}
+.generator .d2 .password{
+    height:100px;
+    width:550px;
+    border:0;
+    border-bottom: 5px solid black;
+    text-align:center;
+    outline: none;
+    font-weight: 1000;
+    font-size:25px;
+    background-color: transparent;
+}
+.generator .d2 button{
+    height: 50px;
+    padding: 10px;
+    margin-top:30px;
+    margin-left:10px;
+    font-size: 20px;
+    background-color: #fbb605;
+    border:0;
+    color: white;
+    cursor: pointer;
+}
+.generator .d2 button:hover{
+    color:black;
+}
+.generator .d2 p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color:transparent;
+    opacity:.5;
+    text-shadow: 5px -5px 0 gray;
+}
+.generator .d3{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.generator .d3 .length{
+    height:50px;
+    width:100px;
+    text-align:center;
+    font-weight: 500;
+    font-size:20px;
+    margin-left: -20px;
+}
+.generator .d3 button{
+    height: 50px;
+    width:550px;
+    padding: 10px;
+    margin-top:30px;
+    font-size: 20px;
+    background-color: #ea4335;
+    border:0;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.generator .d3 button:hover{
+    color:#34a853;
+}
+.generator .d3 p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color:transparent;
+    text-shadow: 5px -5px 0 red;
+}
+
+
+.strongpass{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #a9b6b6;
+}
+.strongpass .strongpass1 .p1{
+    font-size: 25px;
+    font-weight: 700;
+    color:#fbb605;
+    padding:20px;
+}
+.strongpass .strongpass1 ol{
+    padding:20px;
+    list-style:none;
+    line-height: 50px;
+}
+.strongpass .strongpass1 ol li{
+    font-size: 25px;
+    font-weight: 1000;
+    height: 50px;
+    width: 100%;
+    background-color:#4285f4;
+    padding:15px;
+    color:#ea4335;
+    border-left: 10px solid #34a853;
+    line-height: 50px;
+}
+
+.strongpass .strongpass2 .p2{
+    font-size: 25px;
+    font-weight: 700;
+    color:#4285f4;
+    padding:20px;
+}
+.strongpass .strongpass2 ol{
+    padding:20px;
+    list-style:none;
+    line-height: 50px;
+}
+.strongpass .strongpass2 ol li{
+    font-size: 25px;
+    font-weight: 1000;
+    height: 50px;
+    width: 100%;
+    background-color:#34a853;
+    padding:15px;
+    color:#fbb605;
+    border-left: 10px solid #ea4335;
+    line-height: 50px;
+}
+
+
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.about .about1{
+    background: grey;
+    height: 100vh;
+}
+.about .about2{
+    background: rgb(182, 181, 181);
+    height: 100vh;
+}
+.about .about1 h1{
+    padding: 20px;
+ color:indigo;
+}
+.about .about1 p{
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about .about2 h1{
+    padding: 20px;
+    color:indigo;
+   }
+.about .about2 p{
+    padding: 20px;
+       font-size: 20px;
+       line-height: 30px;
+}
+
+
+.footer{
+    background: black;
+    text-align: center;
+    color:white;
+}
+}
+
+
+@media screen and (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        transition: 1s ease-in;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    body::-webkit-scrollbar{
+        width: 1px;
+    }
+    .generator{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: #f9fdfd;
+    }
+    .generator div:nth-child(1) p{
+        padding: 10px;
+    }
+    .generator div:nth-child(1) .p1{
+        font-size: 20px;
+        font-weight: 700;
+        color:red;
+    }
+    .generator div:nth-child(1) .p2{
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .generator div:nth-child(1) .p3{
+        font-size: 15px;
+    }
+    .generator .d2{
+        height:150px;
+        width:150vh;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        padding: 50px;
+        border:1px solid black;
+    }
+    .generator .d2 .password{
+        height:100px;
+        width:550px;
+        border:0;
+        border-bottom: 5px solid black;
+        text-align:center;
+        outline: none;
+        font-weight: 1000;
+        font-size:25px;
+        background-color: transparent;
+    }
+    .generator .d2 button{
+        height: 50px;
+        padding: 10px;
+        margin-top:30px;
+        margin-left:10px;
+        font-size: 20px;
+        background-color: #fbb605;
+        border:0;
+        color: white;
+        cursor: pointer;
+    }
+    .generator .d2 button:hover{
+        color:black;
+    }
+    .generator .d2 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        opacity:.5;
+        text-shadow: 5px -5px 0 gray;
+    }
+    .generator .d3{
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .generator .d3 .length{
+        height:50px;
+        width:100px;
+        text-align:center;
+        font-weight: 500;
+        font-size:20px;
+        margin-left: -20px;
+    }
+    .generator .d3 button{
+        height: 50px;
+        width:550px;
+        padding: 10px;
+        margin-top:30px;
+        font-size: 20px;
+        background-color: #ea4335;
+        border:0;
+        color: white;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    .generator .d3 button:hover{
+        color:#34a853;
+    }
+    .generator .d3 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        text-shadow: 5px -5px 0 red;
+    }
+    
+    
+    .strongpass{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        background-color: #a9b6b6;
+    }
+    .strongpass .strongpass1{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass1 .p1{
+        font-size: 25px;
+        font-weight: 700;
+        color:#fbb605;
+        padding:20px;
+    }
+    .strongpass .strongpass1 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass1 ol li{
+        font-size: 20px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#4285f4;
+        padding: 5px;
+        color:#ea4335;
+        border-left: 10px solid #34a853;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass2 .p2{
+        font-size: 25px;
+        font-weight: 700;
+        color:#4285f4;
+        padding:20px;
+    }
+    .strongpass .strongpass2 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2 ol li{
+        font-size: 20px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#34a853;
+        padding:5px;
+        color:#fbb605;
+        border-left: 10px solid #ea4335;
+        line-height: 50px;
+    }
+    
+    
+    .about{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .about .about1{
+        background: grey;
+        height: 100%;
+        width: 100%;
+    }
+    .about .about2{
+        background: rgb(182, 181, 181);
+        height: 100%;
+        width: 100%;
+    }
+    .about .about1 h1{
+        padding: 20px;
+     color:indigo;
+    }
+    .about .about1 p{
+        padding: 20px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about .about2 h1{
+        padding: 20px;
+        color:indigo;
+       }
+    .about .about2 p{
+        padding: 21px;
+           font-size: 20px;
+           line-height: 30px;
+    }
+    
+    
+    .footer{
+        height:auto;
+        width:auto;
+        background: black;
+        text-align: center;
+        color:white;
+    }
+}
+@media screen and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        transition: 1s ease-in;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    body::-webkit-scrollbar{
+        width: 1px;
+    }
+    .generator{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: #f9fdfd;
+    }
+    .generator div:nth-child(1) p{
+        padding: 10px;
+    }
+    .generator div:nth-child(1) .p1{
+        font-size: 20px;
+        font-weight: 700;
+        color:red;
+    }
+    .generator div:nth-child(1) .p2{
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .generator div:nth-child(1) .p3{
+        font-size: 15px;
+    }
+    .generator .d2{
+        height:150px;
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        padding: 50px;
+        border:1px solid black;
+    }
+    .generator .d2 .password{
+        height:100px;
+        width:400px;
+        border:0;
+        border-bottom: 5px solid black;
+        text-align:center;
+        outline: none;
+        font-weight: 1000;
+        font-size:25px;
+        background-color: transparent;
+    }
+    .generator .d2 button{
+        height: 50px;
+        padding: 10px;
+        margin-top:30px;
+        margin-left:10px;
+        font-size: 20px;
+        background-color: #fbb605;
+        border:0;
+        color: white;
+        cursor: pointer;
+    }
+    .generator .d2 button:hover{
+        color:black;
+    }
+    .generator .d2 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        opacity:.5;
+        text-shadow: 5px -5px 0 gray;
+    }
+    .generator .d3{
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .generator .d3 .length{
+        height:50px;
+        width:100px;
+        text-align:center;
+        font-weight: 500;
+        font-size:20px;
+        margin-left: -20px;
+    }
+    .generator .d3 button{
+        height: 50px;
+        width:550px;
+        padding: 10px;
+        margin-top:30px;
+        font-size: 20px;
+        background-color: #ea4335;
+        border:0;
+        color: white;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    .generator .d3 button:hover{
+        color:#34a853;
+    }
+    .generator .d3 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        text-shadow: 5px -5px 0 red;
+    }
+    
+    
+    .strongpass{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        background-color: #a9b6b6;
+    }
+    .strongpass .strongpass1{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass1 .p1{
+        font-size: 20px;
+        font-weight: 700;
+        color:#fbb605;
+        padding:20px;
+    }
+    .strongpass .strongpass1 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass1 ol li{
+        font-size: 15px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#4285f4;
+        padding: 0px;
+        color:#ea4335;
+        border-left: 10px solid #34a853;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass2 .p2{
+        font-size: 20px;
+        font-weight: 700;
+        color:#4285f4;
+        padding:20px;
+    }
+    .strongpass .strongpass2 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2 ol li{
+        font-size: 15px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#34a853;
+        padding:0px;
+        color:#fbb605;
+        border-left: 10px solid #ea4335;
+        line-height: 50px;
+    }
+    
+    
+    .about{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .about .about1{
+        background: grey;
+        height: 100%;
+        width: 100%;
+    }
+    .about .about2{
+        background: rgb(182, 181, 181);
+        height: 100%;
+        width: 100%;
+    }
+    .about .about1 h1{
+        padding: 20px;
+     color:indigo;
+    }
+    .about .about1 p{
+        padding: 20px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .about .about2 h1{
+        padding: 20px;
+        color:indigo;
+       }
+    .about .about2 p{
+        padding: 21px;
+           font-size: 20px;
+           line-height: 30px;
+    }
+    
+    
+    .footer{
+        height:auto;
+        width:auto;
+        background: black;
+        text-align: center;
+        color:white;
+    }
+}
+
+
+@media screen and (max-width:414px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        transition: 1s ease-in;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    body::-webkit-scrollbar{
+        width: 1px;
+    }
+    .generator{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: #f9fdfd;
+    }
+    .generator div:nth-child(1) p{
+        padding: 10px;
+    }
+    .generator div:nth-child(1) .p1{
+        font-size: 20px;
+        font-weight: 700;
+        color:red;
+    }
+    .generator div:nth-child(1) .p2{
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .generator div:nth-child(1) .p3{
+        font-size: 15px;
+    }
+    .generator .d2{
+        height:150px;
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        padding: 50px;
+        border:1px solid black;
+    }
+    .generator .d2 .password{
+        height:100px;
+        width:200px;
+        border:0;
+        border-bottom: 5px solid black;
+        text-align:center;
+        outline: none;
+        font-weight: 1000;
+        font-size:25px;
+        background-color: transparent;
+    }
+    .generator .d2 button{
+        height: 50px;
+        padding: 10px;
+        margin-top:30px;
+        margin-left:10px;
+        font-size: 20px;
+        background-color: #fbb605;
+        border:0;
+        color: white;
+        cursor: pointer;
+    }
+    .generator .d2 button:hover{
+        color:black;
+    }
+    .generator .d2 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        opacity:.5;
+        text-shadow: 5px -5px 0 gray;
+    }
+    .generator .d3{
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .generator .d3 .length{
+        height:50px;
+        width:100px;
+        text-align:center;
+        font-weight: 500;
+        font-size:20px;
+        margin-left: -20px;
+    }
+    .generator .d3 button{
+        height: 50px;
+        width:550px;
+        padding: 10px;
+        margin-top:30px;
+        font-size: 20px;
+        background-color: #ea4335;
+        border:0;
+        color: white;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    .generator .d3 button:hover{
+        color:#34a853;
+    }
+    .generator .d3 p{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color:transparent;
+        text-shadow: 5px -5px 0 red;
+    }
+    
+    
+    .strongpass{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        background-color: #a9b6b6;
+    }
+    .strongpass .strongpass1{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass1 .p1{
+        font-size: 20px;
+        font-weight: 700;
+        color:#fbb605;
+        padding:20px;
+    }
+    .strongpass .strongpass1 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass1 ol li{
+        font-size: 15px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#4285f4;
+        padding: 0px;
+        color:#ea4335;
+        border-left: 10px solid #34a853;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2{
+        height: 100%;
+        width: 100%;
+    }
+    .strongpass .strongpass2 .p2{
+        font-size: 20px;
+        font-weight: 700;
+        color:#4285f4;
+        padding:20px;
+    }
+    .strongpass .strongpass2 ol{
+        padding:20px;
+        list-style:none;
+        line-height: 50px;
+    }
+    .strongpass .strongpass2 ol li{
+        font-size: 15px;
+        font-weight: 1000;
+        height:auto;
+        width: 100%;
+        background-color:#34a853;
+        padding:0px;
+        color:#fbb605;
+        border-left: 10px solid #ea4335;
+        line-height: 50px;
+    }
+    
+    
+    .about{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .about .about1{
+        background: grey;
+        height: 100%;
+        width: 100%;
+    }
+    .about .about2{
+        background: rgb(182, 181, 181);
+        height: 100%;
+        width: 100%;
+    }
+    .about .about1 h1{
+        padding: 15px;
+     color:indigo;
+    }
+    .about .about1 p{
+        padding: 20px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .about .about2 h1{
+        padding: 20px;
+        color:indigo;
+       }
+    .about .about2 p{
+        padding: 21px;
+           font-size: 20px;
+           line-height: 30px;
+    }
+    
+    
+    .footer{
+        height:auto;
+        width:auto;
+        background: black;
+        text-align: center;
+        color:white;
+    }
+}
